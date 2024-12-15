@@ -1,11 +1,10 @@
 Proceso AreaCilindro
-	// Programa para calcular el área de un cilindro, su fórmula es: 2 pi r (r+h)
-	// Definición de constantes
-	Definir MiPi Como Real;
+	// Programa para calcular el Ã¡rea de un cilindro, su fÃ³rmula es: 2 pi r (r+h)
+        //PSeInt ya incorpora la constante pi
+	// DefiniciÃ³n de constantes
 	Definir Multiplicador Como Entero;
-	MiPi <- 3.14159265;
 	Multiplicador <- 2;
-	// Definición de variables
+	// DefiniciÃ³n de variables
 	Definir a Como Real;
 	Definir r Como Real;
 	Definir h Como Real;
@@ -15,8 +14,8 @@ Proceso AreaCilindro
 	Escribir 'Digite la altura(h) del cilindro: ';
 	Leer h;
 	// Proceso
-	a <- Multiplicador*MiPi*r*(r+h);
+	a <- Multiplicador*Pi*r*(r+h);
 	// Salida
-	Escribir 'El área del cilindro es: ',a;
+	Escribir 'El Ã¡rea del cilindro es: ',a;
 FinProceso
 
